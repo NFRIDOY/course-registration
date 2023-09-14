@@ -5,7 +5,7 @@ export default function Main() {
     const [selectCourses, setSelectCourse] = useState([]);
     const handleSelectBtn = (newSelectCourse) => {
         // const newSelectCourse = [...selectCourse];
-        console.log(newSelectCourse);
+        // console.log(newSelectCourse);
         const newSelectCourseList = [...selectCourses,newSelectCourse];
         setSelectCourse(newSelectCourseList);
         // setSelectCourse(newSelectCourse);

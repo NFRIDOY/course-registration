@@ -1,4 +1,13 @@
-export default function Cart({selectCourses}) {
+import { useState } from "react"
+
+export default function Cart({ selectCourses }) {
+    const [credit, setCredit] = useState(0);
+    // setCredit()
+    let creditList = [...selectCourses.map(selectCourseCredit => selectCourseCredit.credit)]
+    // console.log(creditList);
+    let totalCredit = creditList.reduce(function (accumulator, currentValue) {
+        return accumulator + currentValue;
+    }, 0);
     return (
         <div className="w-auto bg-white rounded-xl h-fit">
             <h1 className="text-primary font-bold text-lg text-center py-4">Credit Hour Remaining {7} hr</h1>
@@ -10,7 +19,7 @@ export default function Cart({selectCourses}) {
                 }
             </ol>
             <hr className="border w-11/12 mx-auto" />
-            <h2 className="py-4 mx-4">Total Credit Hour : {13}</h2>
+            <h2 className="py-4 mx-4">Total Credit Hour : {totalCredit}</h2>
             <hr className="border w-11/12 mx-auto" />
             <h2 className="py-4 mx-4">Total Price : {100} USD</h2>
         </div>

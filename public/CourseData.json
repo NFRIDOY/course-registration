@@ -5,7 +5,7 @@
         "cover": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
         "details": "Learn the basics of Python programming, including variables, data types, functions, and control flow.",
         "price": 99,
-        "courseCreditHour": 3
+        "credit": 3
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "cover": "https://images.unsplash.com/photo-1655196601100-8bfb26cf99e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80",
         "details": "Build websites and web applications using HTML, CSS, and JavaScript.",
         "price": 129,
-        "courseCreditHour": 4
+        "credit": 4
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "cover": "https://images.unsplash.com/photo-1690683789978-3cf73960d650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1809&q=80",
         "details": "Learn how to collect, clean, and analyze data using Python.",
         "price": 149,
-        "courseCreditHour": 20
+        "credit": 20
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "cover": "https://images.unsplash.com/photo-1543941869-11da6518d88f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         "details": "Build and train machine learning models using TensorFlow.",
         "price": 199,
-        "courseCreditHour": 13
+        "credit": 13
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "cover": "https://images.unsplash.com/photo-1646583288948-24548aedffd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
         "details": "Learn the basics of artificial intelligence and how to implement it in Python.",
         "price": 249,
-        "courseCreditHour": 7
+        "credit": 7
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "cover": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         "details": "Build native iOS apps for iPhone and iPad using Swift.",
         "price": 299,
-        "courseCreditHour": 8
+        "credit": 8
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@
         "cover": "https://wallpapercave.com/wp/wp6476360.png",
         "details": "Build native Android apps for smartphones and tablets using React Native.",
         "price": 349,
-        "courseCreditHour": 9
+        "credit": 9
     },
     {
         "id": "8",
@@ -61,7 +61,7 @@
         "cover": "https://images.unsplash.com/photo-1629752187687-3d3c7ea3a21b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
         "details": "Learn how to design user-friendly and engaging user interfaces.",
         "price": 399,
-        "courseCreditHour": 10
+        "credit": 10
     },
     {
         "id": "9",
@@ -69,6 +69,6 @@
         "cover": "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
         "details": "Create visually appealing and user-friendly user interfaces.",
         "price": 449,
-        "courseCreditHour": 11
+        "credit": 11
     }
 ]
