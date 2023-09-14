@@ -23,7 +23,7 @@ export default function Card({ course }) {
                         <img className='inline h-5/6' src={Credit} alt="" /> Credit : {courseCreditHour} hr
                     </span>
             </div>
-            <button className='justify-items-end btn btn-primary text-white'>Select</button>
+            <button onClick={handleSelectBtn} className='justify-items-end btn btn-primary text-white'>Select</button>
         </div>
     )
 }

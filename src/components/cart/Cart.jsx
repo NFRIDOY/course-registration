@@ -1,6 +1,6 @@
 export default function Cart() {
     return (
-        <div className="w-auto h-full bg-white rounded-xl h-fit">
+        <div className="w-auto bg-white rounded-xl h-fit">
             <h1 className="text-primary font-bold text-lg text-center py-4">Credit Hour Remaining {7} hr</h1>
             <hr className="border w-11/12 mx-auto" />
             <h1 className="font-bold text-xl py-4 mx-4">Course Name</h1>
