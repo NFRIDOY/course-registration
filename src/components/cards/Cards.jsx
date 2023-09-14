@@ -14,7 +14,7 @@ export default function Cards() {
             <div>
                 {/* <img src={data[0].cover} alt="" /> */}
                 {
-                    courses.map((course) => <img src={course.cover} alt="" /> )
+                    courses.map((course) => <Card key={course.id} course={course}></Card> )
 
                 }
             </div>
