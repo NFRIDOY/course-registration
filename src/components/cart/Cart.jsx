@@ -26,7 +26,7 @@ export default function Cart({ selectCourses }) {
             <h1 className="font-bold text-xl py-4 mx-4">Course Name</h1>
             <ol className="list-decimal mx-9 mb-4">
                 {
-                    selectCourses.map((selectCourse) => <li key={selectCourse.id}>{selectCourse.title}</li>)
+                    selectCourses.map((selectCourse) => <li key={selectCourse.id} className="text-base font-normal text-[#1c1b1b] opacity-60">{selectCourse.title}</li>)
                 }
             </ol>
             <hr className="border w-11/12 mx-auto" />

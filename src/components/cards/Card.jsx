@@ -13,7 +13,7 @@ export default function Card({ course, handleSelectBtn }) {
                     <img className="rounded-lg" src={cover} alt={title} />
                 </div>
                 <h1 className="text-lg font-semibold my-4">{title}</h1>
-                <p className="text-sm">{details}</p>
+                <p className="text-sm font-normal text-[#1c1b1b] opacity-60">{details}</p>
 
             </div>
             <div className="Price-Credit flex justify-between font-semibold text-base my-4">
