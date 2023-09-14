@@ -11,8 +11,7 @@ export default function Cards() {
     }, [])
     return (
         <>
-            <div>
-                {/* <img src={data[0].cover} alt="" /> */}
+            <div className="grid grid-cols-3 gap-4">
                 {
                     courses.map((course) => <Card key={course.id} course={course}></Card> )
 
