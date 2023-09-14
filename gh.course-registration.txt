@@ -13,3 +13,7 @@ git push -u origin main
 git remote add origin https://github.com/programming-hero-web-course2/my-course-roster-NFRIDOY.git
 git branch -M main
 git push -u origin main
+
+...tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
