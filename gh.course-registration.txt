@@ -2,7 +2,7 @@
 
 git init
 git add .
-git commit -m "course-registration init"
+git commit -m "course-registration react init "
 git branch -M main
 git remote add origin https://github.com/programming-hero-web-course2/my-course-roster-NFRIDOY.git
 git push -u origin main
