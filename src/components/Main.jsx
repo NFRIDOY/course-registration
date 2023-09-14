@@ -7,9 +7,16 @@ export default function Main() {
     const handleSelectBtn = (newSelectCourse) => {
         // const newSelectCourse = [...selectCourse];
         // console.log(newSelectCourse);
-        const newSelectCourseList = [...selectCourses,newSelectCourse];
-        setSelectCourse(newSelectCourseList);
+        if(!selectCourses.includes(newSelectCourse)) {
+            const newSelectCourseList = [...selectCourses,newSelectCourse];
+            setSelectCourse(newSelectCourseList);
+        }
+        else {
+            setSelectCourse([...selectCourses]);
+        }
         // setSelectCourse(newSelectCourse);
+
+
 
     }
     return (
