@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Card from "./Card"
 // import { data } from "autoprefixer";
-export default function Cards() {
+export default function Cards({handleSelectBtn}) {
     const [courses, setCourses]= useState([]);
     useEffect(()=> {
         fetch("CourseData.json")
@@ -13,7 +13,7 @@ export default function Cards() {
         <>
             <div className="grid grid-cols-3 gap-4">
                 {
-                    courses.map((course) => <Card key={course.id} course={course}></Card> )
+                    courses.map((course) => <Card key={course.id} course={course} handleSelectBtn={handleSelectBtn}></Card> )
 
                 }
             </div>
