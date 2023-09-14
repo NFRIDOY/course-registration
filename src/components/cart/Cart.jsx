@@ -3,9 +3,9 @@ import { useState } from "react"
 export default function Cart({ selectCourses }) {
     const [credit, setCredit] = useState(0);
     // setCredit()
-    let creditList = [...selectCourses.map(selectCourseCredit => selectCourseCredit.credit)]
+    const creditList = [...selectCourses.map(selectCourseCredit => selectCourseCredit.credit)]
     // console.log(creditList);
-    let totalCredit = creditList.reduce(function (accumulator, currentValue) {
+    const totalCredit = creditList.reduce(function (accumulator, currentValue) {
         return accumulator + currentValue;
     }, 0);
     return (
@@ -15,7 +15,7 @@ export default function Cart({ selectCourses }) {
             <h1 className="font-bold text-xl py-4 mx-4">Course Name</h1>
             <ol className="list-decimal mx-9 mb-4">
                 {
-                    selectCourses.map(selectCourse => <li>{selectCourse.title}</li>)
+                    selectCourses.map((selectCourse) => <li key={selectCourse.id}>{selectCourse.title}</li>)
                 }
             </ol>
             <hr className="border w-11/12 mx-auto" />
