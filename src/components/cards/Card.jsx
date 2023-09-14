@@ -3,7 +3,7 @@ import Credit from '../../assets/Credit.png'
 import PropTypes from 'prop-types';
 export default function Card({ course, handleSelectBtn }) {
     // export default function Card(props) {
-    const { title, cover, details, price, courseCreditHour } = course;
+    const { title, cover, details, price, credit } = course;
     // console.log(props);
     // console.log(title);
     return (
@@ -21,7 +21,7 @@ export default function Card({ course, handleSelectBtn }) {
                     <img className='inline h-5/6' src={Dollar} alt="" /> Price: {price}
                 </span>
                 <span>
-                    <img className='inline h-5/6' src={Credit} alt="" /> Credit : {courseCreditHour} hr
+                    <img className='inline h-5/6' src={Credit} alt="" /> Credit : {credit}hr
                 </span>
             </div>
             <button onClick={() => handleSelectBtn(course)} className='justify-items-end btn btn-primary text-white'>Select</button>

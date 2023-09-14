@@ -3,6 +3,7 @@ import Cards from "./cards/Cards"
 import Cart from "./cart/Cart"
 export default function Main() {
     const [selectCourses, setSelectCourse] = useState([]);
+    // const [remaining, setRemaining] = useState(0);
     const handleSelectBtn = (newSelectCourse) => {
         // const newSelectCourse = [...selectCourse];
         // console.log(newSelectCourse);
