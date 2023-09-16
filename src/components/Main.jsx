@@ -9,12 +9,14 @@ export default function Main() {
         // console.log(newSelectCourse);
         const isExist = selectCourses.find(selectCourse => selectCourse.id == newSelectCourse.id)
         { console.log(isExist) }
-        if (!selectCourses.includes(newSelectCourse)) {
-            const newSelectCourseList = [...selectCourses, newSelectCourse];
-            setSelectCourse(newSelectCourseList);
+        if(isExist) {
+        // if (!selectCourses.includes(newSelectCourse)) {
+            return alert("already Booked");
         }
         else {
-            setSelectCourse([...selectCourses]);
+            const newSelectCourseList = [...selectCourses, newSelectCourse];
+            setSelectCourse(newSelectCourseList);
+            // setSelectCourse([...selectCourses]);
         }
         // setSelectCourse(newSelectCourse);
 
