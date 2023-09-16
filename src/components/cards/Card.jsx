@@ -8,13 +8,12 @@ export default function Card({ course, handleSelectBtn }) {
     // console.log(title);
     return (
         <div className="w-11/12 p-4 bg-white rounded-xl flex flex-col justify-between ">
-            <div className='main'>
+            <div className='main h-full'>
                 <div>
-                    <img className="rounded-lg" src={cover} alt={title} />
+                    <img className="rounded-lg " src={cover} alt={title} />
                 </div>
                 <h1 className="text-lg font-semibold my-4">{title}</h1>
                 <p className="text-sm font-normal text-[#1c1b1b] opacity-60">{details}</p>
-
             </div>
             <div className="Price-Credit flex justify-between font-semibold text-base my-4">
                 <span>

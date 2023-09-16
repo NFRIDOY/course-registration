@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Python Programming",
-        "cover": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+        "cover": "https://images.unsplash.com/photo-1649180556628-9ba704115795?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80",
         "details": "Learn the basics of Python programming, including variables, data types, functions, and control flow.",
         "price": 99,
         "credit": 3
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "Web Development with JavaScript",
-        "cover": "https://images.unsplash.com/photo-1655196601100-8bfb26cf99e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80",
+        "cover": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
         "details": "Build websites and web applications using HTML, CSS, and JavaScript.",
         "price": 129,
         "credit": 4
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Data Science with Python",
-        "cover": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*RJMxLdTHqVBSijKmOO5MAg.jpeg",
+        "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         
         "details": "Learn how to collect, clean, and analyze data using Python.",
         "price": 149,
@@ -67,7 +67,7 @@
     {
         "id": "9",
         "title": "UI Design",
-        "cover": "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+        "cover": "https://plus.unsplash.com/premium_photo-1661284854881-77b3c89aa176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         "details": "Create visually appealing and user-friendly user interfaces.",
         "price": 449,
         "credit": 21
