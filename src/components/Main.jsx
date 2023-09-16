@@ -76,14 +76,13 @@ export default function Main() {
 
     return (
         <>
-            <div className='max-w-7xl mx-auto '>
+            <div className='max-w-xs lg:max-w-7xl mx-auto '>
 
-                <div className="flex justify-between">
+                <div className="flex flex-col lg:flex-row justify-between ">
                     <div>
-
                         <Cards handleSelectBtn={handleSelectBtn}></Cards>
                     </div>
-                    <div className="w-[1700px] h-auto">
+                    <div className="lg:w-[1700px] h-auto">
                         <Cart selectCourses={selectCourses}></Cart>
                     </div>
                 </div>
