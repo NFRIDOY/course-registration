@@ -7,22 +7,14 @@ export default function Main() {
     const handleSelectBtn = (newSelectCourse) => {
         // const newSelectCourse = [...selectCourse];
         // console.log(newSelectCourse);
-        const isExist = selectCourses.find(selectCourse => selectCourse.id == newSelectCourse.id)
-        { console.log(isExist) }
-        // if(isExist) {
-
-        // }
-        //
-        if (!selectCourses.includes(newSelectCourse)) {
-            const newSelectCourseList = [...selectCourses, newSelectCourse];
+        if(!selectCourses.includes(newSelectCourse)) {
+            const newSelectCourseList = [...selectCourses,newSelectCourse];
             setSelectCourse(newSelectCourseList);
         }
         else {
             setSelectCourse([...selectCourses]);
         }
         // setSelectCourse(newSelectCourse);
-
-
 
     }
 
