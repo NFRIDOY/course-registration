@@ -1,6 +1,9 @@
 # my-course-roster-NFRIDOY
 ## React + Vite + TailwindCSS + DaisyUI
 
+Github Link- https://github.com/programming-hero-web-course2/my-course-roster-NFRIDOY
+Live Link- https://murky-night.surge.sh/
+
 ##  Questions
 ### Questions 1:- Add at least 3 Project features 
 
