@@ -9,7 +9,6 @@ export default function Main() {
     // const [totalCredit, setTotalCredit] = useState(0);
 
     // let totalCredit = 0
-    const [remaining, setRemaining] = useState(0);
     // const [remaining, setRemaining] = useState(0);
 
     const handleSelectBtn = (newSelectCourse) => {
