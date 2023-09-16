@@ -17,5 +17,12 @@ I have used sevrel State in this project. By calling state i mean useState hook.
 I declared a useState in Main.jsx for maintaine selected Cousers. Main.jsx is the Parent component of two child components ex. Cards.jsx and Cart.jsx. This useStates' set Function is set insine the child of Cards.jsx Card.jsx. The set function is set on onClick Select Button. From their useState of Main.jsx is updating the selected array. Then the value is send as props in Cart.jsx component. In the Cart.jsx component the selected array list is shown.
 </p>
 <p>
-I declared another useState in Cards.jsx for 
+I declared another useState in Cards.jsx for soring data form fake CourseData.json. 
+~~~
+const [courses, setCourses]= useState([]);
+~~~
+Here setCourse is setting data in the cousers. And cousers variable is using for genarage Card component and passing props in that compnent.
+</p>
+<p>
+I declared another useState in Cart.jax component storing remaining credits. 
 </p>
