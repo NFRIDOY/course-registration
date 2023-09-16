@@ -1,6 +1,9 @@
 import { useState } from "react"
 import Cards from "./cards/Cards"
 import Cart from "./cart/Cart"
+import Swal from 'sweetalert2'
+// const Swal = require('sweetalert2')
+
 export default function Main() {
     const [selectCourses, setSelectCourse] = useState([]);
     // const [totalCredit, setTotalCredit] = useState(0);
@@ -16,14 +19,19 @@ export default function Main() {
         // console.log(totalCredit + newSelectCourse.credit)
         // setTotalCredit(totalCredit + newSelectCourse.credit)
         // totalCredit = newSelectCourse.credit
-        
-        
+
+
         // totalCredit = totalCredit + newSelectCourse.credit;
-        let count = newSelectCourse.credit ; //1
+        let count = newSelectCourse.credit; //1
         // setTotalCredit(newSelectCourse.credit)//2
         if (isExist) {
             // if (!selectCourses.includes(newSelectCourse)) {
-            return alert("Already Selected");
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...Already Selected!',
+                text: 'This Course Is In Your List!',
+            })
+            // return alert("Already Selected");
         }
         else {
             selectCourses.forEach((course) => {
@@ -32,13 +40,19 @@ export default function Main() {
                 // console.log(count);
 
             })
-            if(count <= 20){ //1
-            // if (totalCredit <= 20) { //2
+            if (count <= 20) { //1
+                // if (totalCredit <= 20) { //2
                 setSelectCourse([...selectCourses, newSelectCourse]);
 
             }
             else {
-                return alert("Credit Overload")
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...Credit Overload!',
+                    text: " Credit Can\'t be more then 20!",
+                    // footer: '<a href="">Why do I have this issue?</a>'
+                })
+                // return alert("Credit Overload")
             }
         }
         // else if (totalCredit <= 20) {
